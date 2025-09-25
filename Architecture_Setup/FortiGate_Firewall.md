@@ -102,6 +102,8 @@ Proper field extraction (srcip, dstip, action, app, etc.)
 
 Host field populated with Fortigate IP (192.168.1.108)
 
+![Splunk Search Overview](screenshots/s5.png)
+
 ### 3. Key Log Fields Extracted
 host: 192.168.1.108 (Fortigate IP)
 
