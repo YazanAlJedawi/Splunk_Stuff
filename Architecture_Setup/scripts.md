@@ -67,12 +67,12 @@ During the monitoring period (9/24/25 10:00:00 AM to 9/25/25 10:07:10 AM), Splun
 
 - netstat: 1 event (4.167%)
 
-![alt text](screenshots/[3].png)
+![Splunk Search Overview](screenshots/s3.png)
 
 ## Detailed Process Monitoring
 The ps sourcetype data reveals comprehensive system process information:
 
-![alt text](screenshots/[4].png)
+![Process Monitoring Detail](screenshots/s4.png)
 
 ### Sample Process Data Collected:
 
