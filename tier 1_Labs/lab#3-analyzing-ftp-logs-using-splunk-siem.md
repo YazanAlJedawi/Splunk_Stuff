@@ -85,7 +85,7 @@ Explanation:
 ![screen.2](screenshots/[ftp3].png)
 
 - Use stats command to calculate statistics such as count, sum, avg, etc.
-![screen.2](screenshots/[ftp4].png)
+![screen.2](screenshots/ftp[4].png)
 
 
 
