@@ -71,18 +71,21 @@ Explanation:
 - `(?<command>[A-Z]+)`: Matches and captures the FTP command (assuming it consists of uppercase letters).
 - `(?<file_path>\/[\w\/.-]+)`: Matches and captures the file path (assuming it starts with "/" and can contain alphanumeric characters, "/", ".", and "-").
 
-[screen.1](screenshots/[ftp].png)
+![screen.1](screenshots/[ftp].png)
 
 
 ### 3. Analyze File Transfer Activity
 - Determine the frequency and volume of file transfers.
-[screen.2](screenshots/[ftp1].png)
+![screen.2](screenshots/[ftp1].png)
+
 - Identify top users or IP addresses involved in file transfers.
-[screen.2](screenshots/[ftp2].png)
+![screen.2](screenshots/[ftp2].png)
+
 - Analyze the types of files being transferred (e.g., documents, executables, archives).
-[screen.2](screenshots/[ftp3].png)
+![screen.2](screenshots/[ftp3].png)
+
 - Use stats command to calculate statistics such as count, sum, avg, etc.
-[screen.2](screenshots/[ftp4].png)
+![screen.2](screenshots/[ftp4].png)
 
 
 
