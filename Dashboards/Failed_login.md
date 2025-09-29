@@ -71,7 +71,7 @@ Purpose: Pinpoints the individual users associated with the most failed attempts
 
 SPL: 
 ```bash
-index=logins action=login login_status=failure | stats count by user | sort -count | head 10
+index="botsv3" action=login login_status=failure | stats count by user | sort -count | head 10
 ```
 
 ### 3. Detailed Event Activity (Table)
@@ -83,7 +83,7 @@ Purpose: Presents granular, aggregated data per user, showing not just login cou
 
 SPL: 
 ```bash
-index=botsv3 sourcetype="auth*" status="failed" 
+index="botsv3" sourcetype="auth*" status="failed" 
 | lookup geoip src_ip AS src_ip OUTPUT country AS src_country 
 | lookup device_mapping.csv src_computer AS src_computer OUTPUT dest_name 
 | table user, activity_count, src_ip, dest_name, src_computer, src_country 
