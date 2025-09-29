@@ -1,6 +1,6 @@
 # Security Login Activity Dashboard Overview
 
-![splunk_screen](Dashboards\sceenshots\failed_login.png)
+![splunk_screen](sceenshots\failed_login.png)
 
 ## Executive Summary: Importance and Purpose
 This dashboard serves as a critical operational security and IT monitoring tool, providing a holistic, real-time view of authentication success and failure across the monitored environment. Its primary importance lies in its ability to `facilitate immediate threat detection and resource management`.
